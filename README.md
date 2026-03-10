@@ -1,9 +1,9 @@
-# 🔐 Secure DevOps Pipeline Configuration and Vulnerability Report
+#  Secure DevOps Pipeline Configuration and Vulnerability Report
 ## Internship Task 4 – DevSecOps Implementation
 
 ---
 
-## 📌 Objective
+##  Objective
 
 The objective of this task is to design and implement a Secure DevOps (DevSecOps) pipeline using GitHub Actions and SonarCloud to automatically analyze source code and identify security vulnerabilities during the Continuous Integration process.
 
@@ -11,7 +11,7 @@ This task demonstrates how security practices can be integrated into DevOps work
 
 ---
 
-## 🧠 Introduction
+##  Introduction
 
 Modern software development requires both speed and security. Traditional development models perform security testing after development, which increases risks and delays deployment.
 
@@ -36,7 +36,7 @@ This approach enables:
 
 ---
 
-## ⚙️ Pipeline Configuration
+##  Pipeline Configuration
 
 The pipeline is configured using GitHub Actions workflow files stored inside:
 
@@ -64,7 +64,7 @@ Pipeline success or failure
 
 ---
 
-## 📂 Project Directory Structure
+##  Project Directory Structure
 
 Intern_task4/
 
@@ -79,7 +79,7 @@ Intern_task4/
 
 ---
 
-## 🚀 Implementation Process
+##  Implementation Process
 
 ### Step 1 — Repository Setup
 
@@ -146,7 +146,7 @@ GitHub Actions automatically runs the pipeline and sends the project for securit
 
 ---
 
-## 🔎 Identified Vulnerabilities Report
+##  Identified Vulnerabilities Report
 
 During analysis, SonarCloud identified security issues in the project.
 
@@ -163,7 +163,7 @@ Hardcoding passwords inside source code exposes sensitive information and allows
 
 ---
 
-## 🛠 Vulnerability Remediation
+##  Vulnerability Remediation
 
 The vulnerability was resolved by replacing hardcoded credentials with environment variables.
 
@@ -180,7 +180,7 @@ This prevents credentials from being stored directly in source code.
 
 ---
 
-## ✅ Quality Gate Evaluation
+##  Quality Gate Evaluation
 
 SonarCloud Quality Gate verifies whether the project meets defined security and quality standards.
 
@@ -191,7 +191,7 @@ The pipeline ensures deployment proceeds only when quality conditions are satisf
 
 ---
 
-## 📊 Secure DevOps Benefits Achieved
+##  Secure DevOps Benefits Achieved
 
 • Automated security scanning  
 • Continuous code inspection  
@@ -201,7 +201,7 @@ The pipeline ensures deployment proceeds only when quality conditions are satisf
 
 ---
 
-## 🎯 Learning Outcomes
+##  Learning Outcomes
 
 Through this task, the following concepts were learned:
 
@@ -214,7 +214,7 @@ Through this task, the following concepts were learned:
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This task successfully demonstrates the implementation of Secure DevOps practices by integrating security analysis within a CI/CD pipeline.
 
@@ -222,9 +222,3 @@ By automating vulnerability detection using SonarCloud and GitHub Actions, the d
 
 DevSecOps ensures that security is treated as a continuous process rather than a final step in software development.
 
----
-
-## 👨‍💻 Author
-
-DevOps Internship Submission  
-Secure DevOps Pipeline Implementation
